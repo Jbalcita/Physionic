@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-montserrat
+    }
+}
+
+.header .toggleMenu span{
+    margin-left: auto;
+    height: 0.2rem;
+    width: 2rem;
+    @apply bg-gray block mb-1
+}
+.header .toggleMenu span:nth-child(2){
+    width: 1.5rem;
+}
+.header .toggleMenu span:nth-child(3){
+    width: 1rem;  
+}

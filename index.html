@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header py-5">
+        <div class="container">
+            <div class="headerWrapper flex justify-between items-center">
+                <div class="headerLogo">
+                    <h2 class="text-secondary font-bold text-[2rem]">Physionic</h2>
+                </div>
+                <div class="headerNav hidden md:block">
+                    <ul class="flex gap-5">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="getAQuote hidden md:block">
+                    <a class="bg-primary p-3 rounded-md text-white font-semibold" href="#">Get a Quote Now</a>
+                </div>
+                <div class="flex gap-6 md:hidden">
+                    <div class="searchAndCart flex gap-6">
+                        <i class="fa-solid fa-magnifying-glass text-darkGray text-2xl"></i>
+                        <i class="fa-solid fa-cart-shopping text-darkGray text-2xl"></i>
+                    </div>
+                    <div class="toggleMenu scale-x-[-1] cursor-pointer ">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="headerMobileNav transition-all duration-500 bg-slate-100 hidden">
+                <ul class="text-center">
+                    <li><a class="block p-3" href="#">Home</a></li>
+                    <li><a class="block p-3" href="#">Product</a></li>
+                    <li><a class="block p-3" href="#">Pricing</a></li>
+                    <li><a class="block p-3" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner bg-blend-multiply bg-cover bg-no-repeat bg-darkGray bg-[url('./img/hero-cvoer.jpg')] py-10 text-center">
+        <div class="container">
+
+            <div class="bannerWrapper lg:flex lg:items-center">
+                <div>
+                    <h1 class="text-huge text-white font-semibold mb-3">Meet the Best Hospital</h1>
+                    <p class="text-white mb-6 w-[70%] mx-auto lg:w-[315px] lg:text-left">We know how large objects will act, but things on a small scale.</p>
+                   
+                    <a class="border-white border inline-block p-5 rounded-full text-white font-semibold" href="#">Learn More</a>
+                </div>
+                <div class="bannerForm text-left bg-white p-10 rounded-lg w-[350px] mx-auto my-10">
+                    <h3 class="text-center text-[1.5rem] font-semibold mb-5">Book Appointment</h3>
+                    <form action="">
+                        <div class="inputGroup">
+                            <label for="">Name</label><br>
+                            <input class="p-3 w-full" type="text" placeholder="Fullname">
+                        </div>
+                        <div class="inputGroup">
+                            <label for="">Email</label><br>
+                            <input class="p-3 w-full" type="text" placeholder="Example@gmail.com">
+                        </div>
+                        <div class="inputGroup">
+                            <label for="">Department</label><br>
+                            <input class="p-3 w-full" type="text" placeholder="Fullname">
+                        </div>
+                        <div class="inputGroup">
+                            <label for="">Time</label><br>
+                            <input class="p-3 w-full" type="text" placeholder="Fullname">
+                        </div>
+                        <button class="bg-primary text-center w-full mt-5 p-5 rounded-lg text-white font-semibold">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="leadingMachine p-10 ">
+        <div class="container ">
+
+                <div class="content p-5">
+                    <h1 class="text-secondary text-huge text-center font-bold ">Leading Machine</h1>
+                    <p class="text-center "> Problems trying to resolve 
+                        the conflict between the 
+                        two major realms of Classical 
+                        physics: Newtonian mechanics 
+                    </p>
+                </div>
+
+
+                <div class="md:flex gap-10 items-center p-12">
+                    
+                    <div class="cards rounded-lg overflow-hidden shadow-lg mb-5 border-2 border-lightBlue">
+                    
+                        <div class="backg p-5 bg-lightBlue flex items-center gap-5">
+                           
+                            <div class=" p-5 rounded-full bg-white">
+                                <i class="fa-solid fa-expand fa-xl"></i>
+                            </div>
+                            <p class="text-center  text-secondary font-bold">Emergency Case</p>
+                        
+                        </div>
+    
+                        <div class="cardsContent rounded px-4 py-6 text-left">
+                            <p>-  The best products start with Figma</p>
+                            <p>- Design with real data</p>
+                            <p>- Lightning fast prototyping</p>
+                            <p>- Fastest way to organize</p>
+                            <p>- Work at the speed of thought.</p>
+                            <a href="#" class="text-primary">Learn More</a>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="cards rounded-lg overflow-hidden shadow-lg mb-5 border-2 border-lightBlue">
+                    
+                        <div class="backg p-5 bg-lightBlue flex items-center gap-5">
+                           
+                            <div class=" p-5 rounded-full bg-white">
+                                <i class="fa-solid fa-expand fa-xl"></i>
+                            </div>
+                            <p class="text-center  text-secondary font-bold">Cancer Care</p>
+                        
+                        </div>
+    
+                        <div class="cardsContent rounded px-4 py-6 text-left">
+                            <p>-  The best products start with Figma</p>
+                            <p>- Design with real data</p>
+                            <p>- Lightning fast prototyping</p>
+                            <p>- Fastest way to organize</p>
+                            <p>- Work at the speed of thought.</p>
+                            <a href="#" class="text-primary">Learn More</a>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="cards rounded-lg overflow-hidden shadow-lg mb-5 border-2 border-lightBlue">
+                    
+                        <div class="backg p-5 bg-lightBlue flex items-center gap-5">
+                           
+                            <div class=" p-5 rounded-full bg-white">
+                                <i class="fa-solid fa-expand fa-xl"></i>
+                            </div>
+                            <p class="text-center text-secondary font-bold">Health Queries</p>
+                        
+                        </div>
+    
+                        <div class="cardsContent rounded px-4 py-6 text-left">
+                            <p>-  The best products start with Figma</p>
+                            <p>- Design with real data</p>
+                            <p>- Lightning fast prototyping</p>
+                            <p>- Fastest way to organize</p>
+                            <p>- Work at the speed of thought.</p>
+                            <a href="#" class="text-primary">Learn More</a>
+                            
+                        </div>
+                        
+                    </div>
+    
+                    
+                    
+                </div>
+                
+                
+
+
+        </div>
+    </section>
+
+    <section class="Reviews p-10">
+        <div class="container">
+            <h1 class="text-secondary text-huge text-center font-bold mb-10">What Clients Say</h1>
+
+                <div class=" lg:flex gap-10 items-center p-12">
+
+                    <div class="reviewContent rounded-md border-2 border-[#dedede] mb-5">
+                        <div class="p-5">
+                                <ul class="flex px-6 text-yellow-400">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <i><i class="fa-regular fa-star"></i></i>
+                                </ul>
+            
+                                <div class="text-justify px-6 py-4">
+                                    <p class="mb-5">Slate helps you see how many 
+                                        more days you need to work to 
+                                        reach your financial goal.
+                                    </p>
+                                    <img src="./img/dr.C.png" alt="">
+                                    
+                                </div>
+                        </div>
+                    </div>
+    
+                    <div class="reviewContent rounded-md border-2 border-[#dedede] mb-5">
+                        <div class="p-5">
+                                <ul class="flex px-6 text-yellow-400">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <i><i class="fa-regular fa-star"></i></i>
+                                </ul>
+            
+                                <div class="text-justify px-6 py-4">
+                                    <p class="mb-5">Slate helps you see how many 
+                                        more days you need to work to 
+                                        reach your financial goal.
+                                    </p>
+                                    <img src="./img/dr.A.png" alt="">
+                                    
+                                </div>
+                        </div>
+                    </div>
+    
+                    <div class="reviewContent rounded-md border-2 border-[#dedede] mb-5">
+                        <div class="p-5">
+                                <ul class="flex px-6 text-yellow-400">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <i><i class="fa-regular fa-star"></i></i>
+                                </ul>
+            
+                                <div class="text-justify px-6 py-4">
+                                    <p class="mb-5">Slate helps you see how many 
+                                        more days you need to work to 
+                                        reach your financial goal.
+                                    </p>
+                                    <img src="./img/dr.C.png" alt="">
+                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+        </div>
+    </section>
+
+    <section class="FAQS">
+        <div class="container">
+            <div class="faq text-center">
+                <h1 class="text-huge text-center text-secondary font-bold text-[3rem]">FAQ</h1>
+                <p class="text-gray font-semibold"> Problems trying to resolve 
+                    the conflict between <br class="hidden lg:block">the 
+                    two major realms of Classical 
+                    physics: Newtonian mechanics </p>
+            </div>
+            <div class="faq_wrapper grid grid-cols-1 md:grid-cols-3 gap-5 py-10">
+                        <div class="p-5 rounded-md text-center bg-[#e5e5e5] h-[100%] w-[100%]">
+                            <div class="flex items-center gap-5">
+                                <img class="" src="./img/arrow-right.png" alt="">
+                                    <h4 class="text-secondary font-semibold">the quick fox jumps over 
+                                                    the lazy dog</h4>
+                            </div>
+                            <p class="text-gray">Things on a very small scale ...</p>
+                        </div>
+                        <div class="p-5 rounded-md text-center bg-[#e5e5e5] h-[100%] w-[100%]">
+                            <div class="flex items-center gap-5">
+                                <img class="" src="./img/arrow-right.png" alt="">
+                                        <h4 class="text-secondary font-semibold">the quick fox jumps over 
+                                            the lazy dog</h4>
+                                        </div>
+                                        <p class="text-gray">Things on a very small scale ...</p>
+                        </div>
+                        <div class="p-5 rounded-md text-center bg-[#e5e5e5] h-[100%] w-[100%]">
+                            <div class="flex items-center gap-5">
+                                <img class="" src="./img/arrow-right.png" alt="">
+                                    <h4 class="text-secondary font-semibold">the quick fox jumps over 
+                                                    the lazy dog</h4>
+                            </div>
+                            <p class="text-gray">Things on a very small scale ...</p>
+                        </div>
+                        <div class="p-5 rounded-md text-center bg-[#e5e5e5] h-[100%] w-[100%]">
+                            <div class="flex items-center gap-5">
+                                <img class="" src="./img/arrow-right.png" alt="">
+                                    <h4 class="text-secondary font-semibold">the quick fox jumps over 
+                                                    the lazy dog</h4>
+                            </div>
+                            <p class="text-gray">Things on a very small scale ...</p>
+                        </div>
+                        <div class="p-5 rounded-md text-center bg-[#e5e5e5] h-[100%] w-[100%]">
+                            <div class="flex items-center gap-5">
+                                <img class="" src="./img/arrow-right.png" alt="">
+                                    <h4 class="text-secondary font-semibold">the quick fox jumps over 
+                                                    the lazy dog</h4>
+                            </div>
+                            <p class="text-gray">Things on a very small scale ...</p>
+                        </div>
+                        <div class="p-5 rounded-md text-center bg-[#e5e5e5] h-[100%] w-[100%]">
+                            <div class="flex items-center gap-5">
+                                <img class="" src="./img/arrow-right.png" alt="">
+                                    <h4 class="text-secondary font-semibold">the quick fox jumps over 
+                                                    the lazy dog</h4>
+                            </div>
+                            <p class="text-gray">Things on a very small scale ...</p>
+                        </div>
+            </div>
+        </div>     
+    </section>
+    
+    <section class="Price">
+        <div class="container">
+
+                <div class="priceHeader">
+
+                    <h1 class="text-huge text-secondary font-bold">Pricing</h1>
+                    <p>Problems trying to resolve 
+                        the conflict between the two major 
+                        realms of Classical physics: 
+                        Newtonian mechanics </p>
+
+                </div>
+        </div>
+    </section>
+
+    
+
+    <script>
+        // const toggleMenu = document.querySelector('.toggleMenu');
+        // const headerMobileNav = document.querySelector('.headerMobileNav');
+
+        // toggleMenu.addEventListener('click', ()=>{
+        //     headerMobileNav.classList.toggle('active');
+        // })
+
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const headerMobileNav = document.querySelector('.headerMobileNav');
+
+        toggleMenu.addEventListener('click', ()=>{
+            headerMobileNav.classList.toggle('hidden');
+        })
+
+    </script>
+
+
+</body>
+
+
+
+
+
+</html>
