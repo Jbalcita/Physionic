@@ -791,8 +791,21 @@ body {
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
+.bg-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 127 127 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\/img\/hero-cvoer\.jpg\'\)\] {
   background-image: url('./img/hero-cvoer.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/hero-cover\.jpg\'\)\] {
+  background-image: url('./img/hero-cover.jpg');
+}
+
+.bg-\[url\(\'\/img\/hero-cover\.jpg\'\)\] {
+  background-image: url('/img/hero-cover.jpg');
 }
 
 .bg-cover {
